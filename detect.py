@@ -75,7 +75,7 @@ class handTracker:
 
 def check_hand_status(hand_landmarks, pred, im0, modified_shape, currentStatus, provStatus, provStatusCnt):
 
-    status_threshold = 5
+    status_threshold = 5dbufibo
     object_hand_threshold = 100
 
     if hand_landmarks is None:
